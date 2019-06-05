@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albero", "Albero\Albero.csproj", "{07A8A80D-45F3-4094-9549-A2CE3E90CFAD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C} = {5D55C7C1-8BCB-44CB-8997-E108FBDC236C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{658DA4B7-086F-4E53-9CA0-04ADD6FE751E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibleDiagnosticIntefaces", "ExtensibleDiagnosticIntefaces\ExtensibleDiagnosticIntefaces.csproj", "{3457548B-AFAC-4DFB-B7C9-76FD456D023B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{1B033705-5EFF-4C55-975B-02FCECC54360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkingDiagnotic", "NetworkingDiagnotic\NetworkingDiagnotic.csproj", "{5D55C7C1-8BCB-44CB-8997-E108FBDC236C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A8A80D-45F3-4094-9549-A2CE3E90CFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A8A80D-45F3-4094-9549-A2CE3E90CFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A8A80D-45F3-4094-9549-A2CE3E90CFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A8A80D-45F3-4094-9549-A2CE3E90CFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3457548B-AFAC-4DFB-B7C9-76FD456D023B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3457548B-AFAC-4DFB-B7C9-76FD456D023B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3457548B-AFAC-4DFB-B7C9-76FD456D023B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3457548B-AFAC-4DFB-B7C9-76FD456D023B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3457548B-AFAC-4DFB-B7C9-76FD456D023B} = {658DA4B7-086F-4E53-9CA0-04ADD6FE751E}
+		{5D55C7C1-8BCB-44CB-8997-E108FBDC236C} = {1B033705-5EFF-4C55-975B-02FCECC54360}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7087E216-EBCA-420D-BE1D-4641CBC104B6}
+	EndGlobalSection
+EndGlobal
